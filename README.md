@@ -18,6 +18,7 @@ Note, that `dlib` package needs installed [CMake](https://cmake.org/) on your co
 
 The next step will be downloading the model and it's weights using the following commands:
 ```
+mkdir models
 git clone https://github.com/NVlabs/stylegan2-ada-pytorch.git
 cd models
 wget https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/ffhq.pkl
